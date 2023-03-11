@@ -1,0 +1,30 @@
+img {
+  max-height: 50%;
+  height: 30%;
+  min-height: 30%;
+}
+
+ion-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 2rem;
+  border-radius: 10%;
+  border: 2px solid red;
+  width: 12rem;
+  font-weight: bolder;
+  color: white;
+  font-size: 6rem;
+  background-color: crimson;
+
+  box-shadow: 10px 10px 5px 0px rgba(102, 21, 21, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(102, 21, 21, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(102, 21, 21, 0.75);
+}
+ion-card-header {
+  font-size: 2rem;
+  color: firebrick;
+  font-weight: bolder;
+}

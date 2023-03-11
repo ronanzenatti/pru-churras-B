@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
-  constructor() {}
+  color = 'tertiary';
+
+  constructor() { }
+
+  mudarCor(cor: string) {
+    this.color = cor;
+  }
 
 }
